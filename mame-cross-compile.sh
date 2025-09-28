@@ -87,7 +87,7 @@ do
       ;;
     f)
       case ${OPTARG} in
-        mame) MAMEFORK=${OPTARG} ; GIT="https://github.com/luigigarciab/mame0281.git" ;;
+        mame0281) MAMEFORK=${OPTARG} ; GIT="https://github.com/luigigarciab/mame0281.git" ;;
         groovymame) MAMEFORK=${OPTARG} ; GIT="https://github.com/antonioginer/GroovyMAME.git" ;;
         *) echo "Invalid fork: -f ${OPTARG}" ; help_short ; exit 1 ;;
       esac
